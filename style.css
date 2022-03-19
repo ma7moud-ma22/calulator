@@ -11,9 +11,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  box-sizing: 10px;
+  border-radius: 10px;
   width: 100%;
 }
+
 
 .calculator {
   border: 2px solid #555;
@@ -108,7 +109,7 @@ body {
 }
 @media (max-width: 400px) {
   body{
-      height: 95vh;
+    height: 95vh !important;
   }
   .calculator {
     max-width: 100%;
