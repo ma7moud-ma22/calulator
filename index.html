@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator" >
+      <div class="outpot">
+        <input type="text" readonly id="typedProgress"  />
+        <input type="text" readonly id="calculationVal" value="= "/>
+      </div>
+      <div class="inputs">
+        <button class="span" id="deletAllBtn">AC</button>
+        <button class="span" id="deletLastLetter"><img src="clear-svgrepo-com.svg" alt="clear" /></button>
+        <span class="span" data-val="%">%</span>
+        <span class="span" data-val="/">÷</span>
+        <span class="span" data-val="7">7</span>
+        <span class="span" data-val="8">8</span>
+        <span class="span" data-val="9">9</span>
+        <span class="span" data-val="*">×</span>
+        <span class="span" data-val="4">4</span>
+        <span class="span" data-val="5">5</span>
+        <span class="span" data-val="6">6</span>
+        <span class="span" data-val="-">-</span>
+        <span class="span" data-val="1">1</span>
+        <span class="span" data-val="2">2</span>
+        <span class="span" data-val="3">3</span>
+        <span class="span" data-val="+">+</span>
+        <span class="span" data-val="0">0</span>
+        <span class="span" data-val=".">.</span>
+        <button class="span" id="equal">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
