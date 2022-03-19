@@ -107,6 +107,9 @@ body {
   filter: invert(1);
 }
 @media (max-width: 400px) {
+  body{
+      height: fit-content;
+  }
   .calculator {
     max-width: 100%;
     height: 95vh;
