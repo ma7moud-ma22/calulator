@@ -14,11 +14,6 @@ body {
   box-sizing: 10px;
   width: 100%;
 }
-@media (max-width: 800px) {
-  body {
-    align-items: flex-end;
-  }
-}
 
 .calculator {
   border: 2px solid #555;
@@ -114,7 +109,7 @@ body {
 @media (max-width: 400px) {
   .calculator {
     max-width: 100%;
-    height: 90%;
+    height: 95%;
     padding: 5px;
   }
   .calculator .outpot {
